@@ -1,0 +1,86 @@
+body {
+    font-family: "Jaini", sans-serif;
+    background-color: #e1e9e1;
+    color: #2e4d2e;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header {
+    background-color: #4a774a;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav {
+    position: relative; /* Set initial position */
+    width: 100%;
+    background-color: #6d8c6d;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed-nav {
+    position: fixed; /* Set fixed position */
+    top: 0;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+
+nav a:hover {
+    text-decoration:underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #4a774a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.map, .character, .factions, .intro, .notes {
+    background-color: #cdf0cd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Style for the session link */
+.session-link {
+    color: #2e4d2e; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.session-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: inherit; /* Inherit text color */
+}
