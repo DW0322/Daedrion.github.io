@@ -4,7 +4,7 @@ body {
     color: #2e4d2e;
     margin: 0;
     padding: 0;
-    
+    overflow-x: hidden;
 
 }
 
@@ -25,6 +25,7 @@ header {
 
 nav {
     position: relative; /* Set initial position */
+    width: 100%;
     background-color: #6d8c6d;
     padding: 10px;
     height: 50px;
