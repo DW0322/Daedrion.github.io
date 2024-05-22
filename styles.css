@@ -25,7 +25,6 @@ header {
 
 nav {
     position: relative; /* Set initial position */
-    width: 100%;
     background-color: #6d8c6d;
     padding: 10px;
     height: 50px;
