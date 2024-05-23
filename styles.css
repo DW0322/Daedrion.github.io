@@ -84,3 +84,21 @@ footer {
     text-decoration: underline; /* Underline on hover */
     color: inherit; /* Inherit text color */
 }
+
+.ch-image {
+    float: right;
+    padding-right: 2%;
+    padding-top: 1%;
+    width: 8%;
+    
+}
+
+.ch-image.ch-medium {
+    width: 6.5%;
+    padding-right: 3%
+}
+
+.ch-image.ch-small {
+    width: 5%;
+    padding-right: 4%
+}
