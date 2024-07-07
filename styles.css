@@ -24,7 +24,8 @@ header {
 }
 
 nav {
-    position: relative; /* Set initial position */
+    position: sticky;
+    top: 0; /* Set initial position */
     width: 100%;
     background-color: #6d8c6d;
     padding: 10px;
@@ -34,11 +35,6 @@ nav {
     justify-content: center;
 }
 
-.fixed-nav {
-    position: fixed; /* Set fixed position */
-    top: 0;
-    z-index: 1000; /* Ensure it's above other elements */
-}
 
 nav a {
     color: white;
