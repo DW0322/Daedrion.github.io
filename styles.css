@@ -25,7 +25,7 @@ header {
 
 nav {
     position: sticky;
-    top: 0; /* Set initial position */
+    top: 0px; /* Set initial position */
     width: 100%;
     background-color: #6d8c6d;
     padding: 10px;
